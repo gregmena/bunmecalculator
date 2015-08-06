@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-  <title>Bun Mi Calculator</title>
+  <title>Bun Me! Calculator</title>
 
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
@@ -17,7 +17,9 @@
   margin-left: auto ;
   margin-right: auto ;
   }
-
+  img { 
+   border: 1px solid #D3D3D3;
+  }
   </style>
 
 
@@ -30,13 +32,13 @@
 
 <body>
   <header>
-    <h1>Bun Mi Calculator</h1>
+    <h1>Bun Me! Calculator</h1>
     <img src="./images/s.png" alt="yelp photo: http://www.yelp.com/biz_photos/bun-me-northridge?select=e9XQ3JE8uUC_H4wQKWkAIA" title="Chicken lemongrass Bun Mi! sandwich">
   </header>
       
 
   <div id="content">
-          <p><strong>How many <a href="http://www.yelp.com/biz/bun-me-northridge">Bun Mi!</a> sandwiches can you buy?</strong></p>
+          <p><strong>How many <a href="http://www.yelp.com/biz/bun-me-northridge">Bun Me!</a> sandwiches can you buy?</strong></p>
           <button>Find out!</button>
   </div>
 
@@ -64,7 +66,7 @@
       var leftOver = (number % bunMiPrice).toFixed(2);
 
       swal({
-        html: 'Wow. You can purchase <strong>' + deal + ' </strong> Bun Mi Sandwiches with $' + leftOver + ' left over!'
+        html: 'Wow. You can purchase <strong>' + deal + ' </strong> Bun Me! sandwiches with $' + leftOver + ' left over!'
       });
     });
     $('#input-field').focus();
