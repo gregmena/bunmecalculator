@@ -1,4 +1,4 @@
 # bunmicalculator
-This is project helps you figure out how many [Bun Me!](http://www.yelp.com/biz/bun-me-northridge) sandwiches you can buy with the [CSUN](http://www.csun.edu) discount. It uses javaScript for math, and jQuery form functionality and CSS from [Sweet Alert 2](https://limonte.github.io/sweetalert2/). 
+This is project helps you figure out how many [Bun Me!](http://www.yelp.com/biz/bun-me-northridge) sandwiches you can buy with the [CSUN](http://www.csun.edu) discount. It uses javaScript for math, and jQuery/CSS from [Sweet Alert 2](https://limonte.github.io/sweetalert2/). 
 
 [Demo link.](http://www.csun.edu/~gmm65408/bunme)
